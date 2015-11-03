@@ -1,0 +1,9 @@
+*~
+.DS_Store
+
+# Shape files are generated
+qgis/layers/**/*.dbf
+qgis/layers/**/*.shp
+qgis/layers/**/*.prj
+qgis/layers/**/*.qpj
+qgis/layers/**/*.shx
