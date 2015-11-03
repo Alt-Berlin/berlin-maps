@@ -23,9 +23,9 @@
     <units>meters</units>
     <extent>
       <xmin>1491939.23674336681142449</xmin>
-      <ymin>6893597.20331832859665155</ymin>
+      <ymin>6893597.20331832580268383</ymin>
       <xmax>1492678.83940734155476093</xmax>
-      <ymax>6894966.43631296511739492</ymax>
+      <ymax>6894966.4363129585981369</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
