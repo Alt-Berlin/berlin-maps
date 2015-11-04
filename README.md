@@ -12,7 +12,7 @@ The map data is created and edited with [QGIS](http://www.qgis.org). Because thi
  - `git lfs init`
 - [Fork this repo](https://help.github.com/articles/fork-a-repo/) and clone your fork
 
-The vector data in this repo is stored in GeoJSON format. Since GeoJSON is a text-based format, you can use standard tools to visualize differences between versions. Since QGIS works best with shapefiles, the GeoJSON data has to be converted before using it with QGIS:
+The vector data in this repo is stored in GeoJSON format. GeoJSON is a text-based format, so you can use standard tools to visualize differences between versions. Since QGIS works best with shapefiles, the GeoJSON data has to be converted before being used with QGIS:
 
 ````
 cd berlin-maps
