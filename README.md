@@ -1,8 +1,28 @@
 # Berlin Maps
+
 Historical maps of Berlin in a vector-based format. The data is based on maps provided by [Senatsverwaltung für Stadtentwicklung und Umwelt Berlin](http://www.stadtentwicklung.berlin.de/geoinformation/geodateninfrastruktur/de/geodienste/atom.shtml).
 
 ## Contribute
 
+The map data is created and edited with [QGIS](http://www.qgis.org). Because this repo contains large image files, you also have to use [git-lfs](https://git-lfs.github.com), a Git extension for versioning large files.
+
 - [Install QGIS](https://github.com/Alt-Berlin/berlin-maps/wiki/QGIS#install-qgis-os-x)
-- Install git-lfs via `brew install git-lfs`
-- Initialise git-lfs with `git lfs init`
+- Install git-lfs
+ - `brew install git-lfs`
+ - `git lfs init`
+- [Fork this repo](https://help.github.com/articles/fork-a-repo/) and clone your fork
+
+The vector data in this repo is stored in GeoJSON format. Since GeoJSON is a text-based format, you can use standard tools to visualize differences between versions. Since QGIS works best with shapefiles, the GeoJSON data has to be converted before using it with QGIS:
+
+````
+cd berlin-maps
+./exportToShapefile.sh
+````
+
+After opening and editing data in `qgis/Berlin.qgs`, you can convert the shapefiles back into GeoJSON format and commit those changes:
+
+````
+./importFromShapefile.sh
+````
+
+Please create a [pull request](https://help.github.com/articles/using-pull-requests/) for your changes.
