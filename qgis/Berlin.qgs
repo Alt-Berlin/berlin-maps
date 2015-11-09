@@ -29,10 +29,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1491350.77559652831405401</xmin>
-      <ymin>6893376.052741639316082</ymin>
-      <xmax>1493751.8384918998926878</xmax>
-      <ymax>6895456.01756485737860203</ymax>
+      <xmin>1491563.90570456185378134</xmin>
+      <ymin>6894807.23416788503527641</ymin>
+      <xmax>1491787.39126439089886844</xmax>
+      <ymax>6895000.83263789489865303</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1348,11 +1348,11 @@
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
-      <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
+      <TopologicalEditing type="bool">true</TopologicalEditing>
     </Digitizing>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
