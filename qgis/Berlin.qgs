@@ -3,6 +3,12 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="1650">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin165020151110192238986" name="Berlin1650">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="1690">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="streets20150921174849756" name="streets">
@@ -21,7 +27,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20151108222712525" name="OSM Mapnik">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_Mapnik20151108222712525" name="OSM Mapnik">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -29,10 +35,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1491563.90570456185378134</xmin>
-      <ymin>6894807.23416788503527641</ymin>
-      <xmax>1491787.39126439089886844</xmax>
-      <ymax>6895000.83263789489865303</ymax>
+      <xmin>1491161.82530372147448361</xmin>
+      <ymin>6893883.95112870447337627</ymin>
+      <xmax>1493562.88819909305311739</xmax>
+      <ymax>6895963.9159519225358963</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -49,6 +55,7 @@
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin165020151110192238986"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150921165653497"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="streets20150921174849756"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:900913" srcDatumTransform="-1" destDatumTransform="-1" layerid="frmt_wms_googlemaps_tms20151108224005955"/>
@@ -81,9 +88,17 @@
       <item>Berlin1986_0720151108230612390</item>
       <item>Berlin169020151108233126617</item>
       <item>water20151109200555326</item>
+      <item>Berlin165020151110192238986</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendgroup open="true" checked="Qt::Unchecked" name="1650">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1650" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="Berlin165020151110192238986" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
     <legendgroup open="true" checked="Qt::Checked" name="1690">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="streets" showFeatureCount="0">
         <filegroup open="true" hidden="false">
@@ -108,13 +123,80 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM Mapnik" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151108222712525" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151108222712525" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-587.78019323671469465</xmin>
+      <ymin>-1755.5</ymin>
+      <xmax>7943.78019323671469465</xmax>
+      <ymax>1755.5</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
   <projectlayers layercount="6">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Berlin165020151110192238986</id>
+      <datasource>./layers/1650/Berlin1650.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Berlin1650</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</proj4>
+          <srsid>1031</srsid>
+          <srid>3068</srid>
+          <authid>EPSG:3068</authid>
+          <description>DHDN / Soldner Berlin</description>
+          <projectionacronym>cass</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Berlin169020151108233126617</id>
       <datasource>./layers/1690/Berlin1690.tif</datasource>
@@ -494,305 +576,6 @@
         <property key="zmax" value="19"/>
         <property key="zmin" value="0"/>
       </customproperties>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Raster20151108230158446</id>
-      <datasource>../../../../Dropbox/Alt-Berlin/Berlin Maps Original/Berlin1986/Berlin_1986_gekachelt 07.tif</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Raster</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
-          <rasterTransparency/>
-          <colorPalette>
-            <paletteEntry value="0" color="#ffffff" label="0"/>
-            <paletteEntry value="1" color="#fffff7" label="1"/>
-            <paletteEntry value="2" color="#f6fff7" label="2"/>
-            <paletteEntry value="3" color="#f6ffef" label="3"/>
-            <paletteEntry value="4" color="#f6fcff" label="4"/>
-            <paletteEntry value="5" color="#fff5ff" label="5"/>
-            <paletteEntry value="6" color="#f7f7f7" label="6"/>
-            <paletteEntry value="7" color="#ffffb5" label="7"/>
-            <paletteEntry value="8" color="#fbffbd" label="8"/>
-            <paletteEntry value="9" color="#fffbc7" label="9"/>
-            <paletteEntry value="10" color="#ffffad" label="10"/>
-            <paletteEntry value="11" color="#fff0f7" label="11"/>
-            <paletteEntry value="12" color="#ffffa5" label="12"/>
-            <paletteEntry value="13" color="#f2f7ef" label="13"/>
-            <paletteEntry value="14" color="#eff7f7" label="14"/>
-            <paletteEntry value="15" color="#ffff9c" label="15"/>
-            <paletteEntry value="16" color="#fdf7bd" label="16"/>
-            <paletteEntry value="17" color="#fff7b5" label="17"/>
-            <paletteEntry value="18" color="#efffb0" label="18"/>
-            <paletteEntry value="19" color="#f9ff94" label="19"/>
-            <paletteEntry value="20" color="#fff7ad" label="20"/>
-            <paletteEntry value="21" color="#ffece1" label="21"/>
-            <paletteEntry value="22" color="#efffa5" label="22"/>
-            <paletteEntry value="23" color="#e6ffbd" label="23"/>
-            <paletteEntry value="24" color="#f1f1e6" label="24"/>
-            <paletteEntry value="25" color="#fdf7a5" label="25"/>
-            <paletteEntry value="26" color="#f2edf7" label="26"/>
-            <paletteEntry value="27" color="#e6ffb5" label="27"/>
-            <paletteEntry value="28" color="#efff9c" label="28"/>
-            <paletteEntry value="29" color="#e6ffad" label="29"/>
-            <paletteEntry value="30" color="#fafa8c" label="30"/>
-            <paletteEntry value="31" color="#f2f7b0" label="31"/>
-            <paletteEntry value="32" color="#e6ffa5" label="32"/>
-            <paletteEntry value="33" color="#f0ecef" label="33"/>
-            <paletteEntry value="34" color="#f2efd2" label="34"/>
-            <paletteEntry value="35" color="#deffb2" label="35"/>
-            <paletteEntry value="36" color="#e6ff9c" label="36"/>
-            <paletteEntry value="37" color="#e5f0ee" label="37"/>
-            <paletteEntry value="38" color="#e6f7bd" label="38"/>
-            <paletteEntry value="39" color="#fbf29c" label="39"/>
-            <paletteEntry value="40" color="#deffa5" label="40"/>
-            <paletteEntry value="41" color="#e3f4cf" label="41"/>
-            <paletteEntry value="42" color="#e6f7b5" label="42"/>
-            <paletteEntry value="43" color="#fbf294" label="43"/>
-            <paletteEntry value="44" color="#deff9c" label="44"/>
-            <paletteEntry value="45" color="#e6f7ad" label="45"/>
-            <paletteEntry value="46" color="#fbebb4" label="46"/>
-            <paletteEntry value="47" color="#def7bd" label="47"/>
-            <paletteEntry value="48" color="#e6f7a5" label="48"/>
-            <paletteEntry value="49" color="#def7b5" label="49"/>
-            <paletteEntry value="50" color="#e6f894" label="50"/>
-            <paletteEntry value="51" color="#def7ad" label="51"/>
-            <paletteEntry value="52" color="#ffe0ca" label="52"/>
-            <paletteEntry value="53" color="#def7a5" label="53"/>
-            <paletteEntry value="54" color="#ccefff" label="54"/>
-            <paletteEntry value="55" color="#e6f78c" label="55"/>
-            <paletteEntry value="56" color="#d6f7b3" label="56"/>
-            <paletteEntry value="57" color="#e6f39c" label="57"/>
-            <paletteEntry value="58" color="#def79c" label="58"/>
-            <paletteEntry value="59" color="#fae7a5" label="59"/>
-            <paletteEntry value="60" color="#fbf361" label="60"/>
-            <paletteEntry value="61" color="#d6f7a5" label="61"/>
-            <paletteEntry value="62" color="#e2e3ec" label="62"/>
-            <paletteEntry value="63" color="#deefb2" label="63"/>
-            <paletteEntry value="64" color="#def394" label="64"/>
-            <paletteEntry value="65" color="#d6efbd" label="65"/>
-            <paletteEntry value="66" color="#e1e3de" label="66"/>
-            <paletteEntry value="67" color="#e7f084" label="67"/>
-            <paletteEntry value="68" color="#fdd2e8" label="68"/>
-            <paletteEntry value="69" color="#fed6ce" label="69"/>
-            <paletteEntry value="70" color="#d6efb5" label="70"/>
-            <paletteEntry value="71" color="#fed9bd" label="71"/>
-            <paletteEntry value="72" color="#d6efad" label="72"/>
-            <paletteEntry value="73" color="#fed6c5" label="73"/>
-            <paletteEntry value="74" color="#e1e2d1" label="74"/>
-            <paletteEntry value="75" color="#fed2d6" label="75"/>
-            <paletteEntry value="76" color="#fdd9b2" label="76"/>
-            <paletteEntry value="77" color="#c7e6ff" label="77"/>
-            <paletteEntry value="78" color="#ecec78" label="78"/>
-            <paletteEntry value="79" color="#d6e2e6" label="79"/>
-            <paletteEntry value="80" color="#deeaa5" label="80"/>
-            <paletteEntry value="81" color="#ceefb3" label="81"/>
-            <paletteEntry value="82" color="#deea9c" label="82"/>
-            <paletteEntry value="83" color="#d6eca5" label="83"/>
-            <paletteEntry value="84" color="#d6ed9c" label="84"/>
-            <paletteEntry value="85" color="#ffcece" label="85"/>
-            <paletteEntry value="86" color="#d6e2d0" label="86"/>
-            <paletteEntry value="87" color="#d6ec94" label="87"/>
-            <paletteEntry value="88" color="#ffcec5" label="88"/>
-            <paletteEntry value="89" color="#e6ddb4" label="89"/>
-            <paletteEntry value="90" color="#ffcebd" label="90"/>
-            <paletteEntry value="91" color="#e6dfa5" label="91"/>
-            <paletteEntry value="92" color="#bde3ff" label="92"/>
-            <paletteEntry value="93" color="#dad6f4" label="93"/>
-            <paletteEntry value="94" color="#f7cece" label="94"/>
-            <paletteEntry value="95" color="#c0e3f3" label="95"/>
-            <paletteEntry value="96" color="#f7cec5" label="96"/>
-            <paletteEntry value="97" color="#d6e1b4" label="97"/>
-            <paletteEntry value="98" color="#cbe1d0" label="98"/>
-            <paletteEntry value="99" color="#dad6de" label="99"/>
-            <paletteEntry value="100" color="#fec5d7" label="100"/>
-            <paletteEntry value="101" color="#fec5ce" label="101"/>
-            <paletteEntry value="102" color="#dedab4" label="102"/>
-            <paletteEntry value="103" color="#d3e78c" label="103"/>
-            <paletteEntry value="104" color="#cee2b4" label="104"/>
-            <paletteEntry value="105" color="#fccab3" label="105"/>
-            <paletteEntry value="106" color="#fec5c5" label="106"/>
-            <paletteEntry value="107" color="#d8d6cf" label="107"/>
-            <paletteEntry value="108" color="#ffc5bd" label="108"/>
-            <paletteEntry value="109" color="#d9cef4" label="109"/>
-            <paletteEntry value="110" color="#b3dfff" label="110"/>
-            <paletteEntry value="111" color="#f4c9bd" label="111"/>
-            <paletteEntry value="112" color="#c9e2a5" label="112"/>
-            <paletteEntry value="113" color="#ced1ef" label="113"/>
-            <paletteEntry value="114" color="#ced6ce" label="114"/>
-            <paletteEntry value="115" color="#ddcecf" label="115"/>
-            <paletteEntry value="116" color="#febdce" label="116"/>
-            <paletteEntry value="117" color="#ced3d6" label="117"/>
-            <paletteEntry value="118" color="#c2dfb3" label="118"/>
-            <paletteEntry value="119" color="#febdc5" label="119"/>
-            <paletteEntry value="120" color="#c8e09c" label="120"/>
-            <paletteEntry value="121" color="#c7df94" label="121"/>
-            <paletteEntry value="122" color="#ced1c5" label="122"/>
-            <paletteEntry value="123" color="#c5d0e0" label="123"/>
-            <paletteEntry value="124" color="#dfcbb2" label="124"/>
-            <paletteEntry value="125" color="#ffb9ba" label="125"/>
-            <paletteEntry value="126" color="#cecece" label="126"/>
-            <paletteEntry value="127" color="#dac1f2" label="127"/>
-            <paletteEntry value="128" color="#fcb1eb" label="128"/>
-            <paletteEntry value="129" color="#e1cba5" label="129"/>
-            <paletteEntry value="130" color="#add4ff" label="130"/>
-            <paletteEntry value="131" color="#c5cfce" label="131"/>
-            <paletteEntry value="132" color="#feb2c9" label="132"/>
-            <paletteEntry value="133" color="#c5cfc5" label="133"/>
-            <paletteEntry value="134" color="#c9cebd" label="134"/>
-            <paletteEntry value="135" color="#cac5ea" label="135"/>
-            <paletteEntry value="136" color="#e0ca93" label="136"/>
-            <paletteEntry value="137" color="#b4d1de" label="137"/>
-            <paletteEntry value="138" color="#f0c66b" label="138"/>
-            <paletteEntry value="139" color="#fbabda" label="139"/>
-            <paletteEntry value="140" color="#eeb8b7" label="140"/>
-            <paletteEntry value="141" color="#cec5c5" label="141"/>
-            <paletteEntry value="142" color="#e5b6ce" label="142"/>
-            <paletteEntry value="143" color="#c7c5ce" label="143"/>
-            <paletteEntry value="144" color="#c8c9b2" label="144"/>
-            <paletteEntry value="145" color="#c5c5c5" label="145"/>
-            <paletteEntry value="146" color="#c7c5bd" label="146"/>
-            <paletteEntry value="147" color="#e2c573" label="147"/>
-            <paletteEntry value="148" color="#bdc5cc" label="148"/>
-            <paletteEntry value="149" color="#c3ca9f" label="149"/>
-            <paletteEntry value="150" color="#c7bdd3" label="150"/>
-            <paletteEntry value="151" color="#bdc6bd" label="151"/>
-            <paletteEntry value="152" color="#c2ca94" label="152"/>
-            <paletteEntry value="153" color="#c4c987" label="153"/>
-            <paletteEntry value="154" color="#dab4b3" label="154"/>
-            <paletteEntry value="155" color="#aac5d9" label="155"/>
-            <paletteEntry value="156" color="#bdbdca" label="156"/>
-            <paletteEntry value="157" color="#d7b992" label="157"/>
-            <paletteEntry value="158" color="#bdc0b3" label="158"/>
-            <paletteEntry value="159" color="#bdbdbd" label="159"/>
-            <paletteEntry value="160" color="#c7b8b7" label="160"/>
-            <paletteEntry value="161" color="#b5c791" label="161"/>
-            <paletteEntry value="162" color="#ff94d6" label="162"/>
-            <paletteEntry value="163" color="#e1b573" label="163"/>
-            <paletteEntry value="164" color="#fa94de" label="164"/>
-            <paletteEntry value="165" color="#b2c49f" label="165"/>
-            <paletteEntry value="166" color="#b2bfb7" label="166"/>
-            <paletteEntry value="167" color="#acbdcf" label="167"/>
-            <paletteEntry value="168" color="#c8c16b" label="168"/>
-            <paletteEntry value="169" color="#f794d6" label="169"/>
-            <paletteEntry value="170" color="#c1b9a0" label="170"/>
-            <paletteEntry value="171" color="#f894cd" label="171"/>
-            <paletteEntry value="172" color="#bdb5b8" label="172"/>
-            <paletteEntry value="173" color="#ff8cde" label="173"/>
-            <paletteEntry value="174" color="#bdb0cc" label="174"/>
-            <paletteEntry value="175" color="#fa8ce6" label="175"/>
-            <paletteEntry value="176" color="#ff8cd6" label="176"/>
-            <paletteEntry value="177" color="#c1b98a" label="177"/>
-            <paletteEntry value="178" color="#ed94d7" label="178"/>
-            <paletteEntry value="179" color="#b5b5bd" label="179"/>
-            <paletteEntry value="180" color="#f78cde" label="180"/>
-            <paletteEntry value="181" color="#cdb863" label="181"/>
-            <paletteEntry value="182" color="#acb5cc" label="182"/>
-            <paletteEntry value="183" color="#b5b5b3" label="183"/>
-            <paletteEntry value="184" color="#ccb573" label="184"/>
-            <paletteEntry value="185" color="#ceb56b" label="185"/>
-            <paletteEntry value="186" color="#f78cd6" label="186"/>
-            <paletteEntry value="187" color="#f88ccd" label="187"/>
-            <paletteEntry value="188" color="#e894cb" label="188"/>
-            <paletteEntry value="189" color="#bdadb6" label="189"/>
-            <paletteEntry value="190" color="#e3a673" label="190"/>
-            <paletteEntry value="191" color="#c9ad94" label="191"/>
-            <paletteEntry value="192" color="#ff84d6" label="192"/>
-            <paletteEntry value="193" color="#caa0d0" label="193"/>
-            <paletteEntry value="194" color="#c5b56b" label="194"/>
-            <paletteEntry value="195" color="#a9bc90" label="195"/>
-            <paletteEntry value="196" color="#a9b5b4" label="196"/>
-            <paletteEntry value="197" color="#ef8ccd" label="197"/>
-            <paletteEntry value="198" color="#fa83de" label="198"/>
-            <paletteEntry value="199" color="#cead73" label="199"/>
-            <paletteEntry value="200" color="#b5adb5" label="200"/>
-            <paletteEntry value="201" color="#ed8ad6" label="201"/>
-            <paletteEntry value="202" color="#cead6b" label="202"/>
-            <paletteEntry value="203" color="#f784d6" label="203"/>
-            <paletteEntry value="204" color="#f884ce" label="204"/>
-            <paletteEntry value="205" color="#b5b481" label="205"/>
-            <paletteEntry value="206" color="#c8a59b" label="206"/>
-            <paletteEntry value="207" color="#c5ad73" label="207"/>
-            <paletteEntry value="208" color="#b5af90" label="208"/>
-            <paletteEntry value="209" color="#d796b6" label="209"/>
-            <paletteEntry value="210" color="#c5ad6b" label="210"/>
-            <paletteEntry value="211" color="#e28cc9" label="211"/>
-            <paletteEntry value="212" color="#c6ad63" label="212"/>
-            <paletteEntry value="213" color="#ef84cd" label="213"/>
-            <paletteEntry value="214" color="#a7adb3" label="214"/>
-            <paletteEntry value="215" color="#a9a7ca" label="215"/>
-            <paletteEntry value="216" color="#a1b2a1" label="216"/>
-            <paletteEntry value="217" color="#bdad6b" label="217"/>
-            <paletteEntry value="218" color="#f87bd4" label="218"/>
-            <paletteEntry value="219" color="#b1a8a1" label="219"/>
-            <paletteEntry value="220" color="#c4aa57" label="220"/>
-            <paletteEntry value="221" color="#b89db3" label="221"/>
-            <paletteEntry value="222" color="#e184c8" label="222"/>
-            <paletteEntry value="223" color="#a4a5b4" label="223"/>
-            <paletteEntry value="224" color="#c2a36b" label="224"/>
-            <paletteEntry value="225" color="#c2a463" label="225"/>
-            <paletteEntry value="226" color="#a4ac80" label="226"/>
-            <paletteEntry value="227" color="#c39d73" label="227"/>
-            <paletteEntry value="228" color="#e27bc8" label="228"/>
-            <paletteEntry value="229" color="#da81ba" label="229"/>
-            <paletteEntry value="230" color="#a5a0a2" label="230"/>
-            <paletteEntry value="231" color="#a19cb3" label="231"/>
-            <paletteEntry value="232" color="#c78d9a" label="232"/>
-            <paletteEntry value="233" color="#ca84b6" label="233"/>
-            <paletteEntry value="234" color="#aba16e" label="234"/>
-            <paletteEntry value="235" color="#9fa091" label="235"/>
-            <paletteEntry value="236" color="#ae9d63" label="236"/>
-            <paletteEntry value="237" color="#999ca0" label="237"/>
-            <paletteEntry value="238" color="#ac9c57" label="238"/>
-            <paletteEntry value="239" color="#b984af" label="239"/>
-            <paletteEntry value="240" color="#c97ab4" label="240"/>
-            <paletteEntry value="241" color="#a685af" label="241"/>
-            <paletteEntry value="242" color="#a885a2" label="242"/>
-            <paletteEntry value="243" color="#b57ea3" label="243"/>
-            <paletteEntry value="244" color="#ba79af" label="244"/>
-            <paletteEntry value="245" color="#ad7ba5" label="245"/>
-            <paletteEntry value="246" color="#ad7b9c" label="246"/>
-            <paletteEntry value="247" color="#978389" label="247"/>
-            <paletteEntry value="248" color="#ad72a1" label="248"/>
-            <paletteEntry value="249" color="#a3779f" label="249"/>
-            <paletteEntry value="250" color="#948259" label="250"/>
-            <paletteEntry value="251" color="#a36b8d" label="251"/>
-            <paletteEntry value="252" color="#927670" label="252"/>
-            <paletteEntry value="253" color="#886683" label="253"/>
-            <paletteEntry value="254" color="#73686e" label="254"/>
-            <paletteEntry value="255" color="#6e6556" label="255"/>
-          </colorPalette>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>streets20150921174849756</id>
@@ -1348,11 +1131,11 @@
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
+      <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
-      <TopologicalEditing type="bool">true</TopologicalEditing>
     </Digitizing>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
