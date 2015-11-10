@@ -27,6 +27,12 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="1800">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin180020151110195755165" name="Berlin1800">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" name="1986">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Berlin1986_0720151108230612390" name="Berlin1986-07">
@@ -73,6 +79,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108222220166"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108222305185"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150921165913924"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin180020151110195755165"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="water20151109200555326"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020150921173723061"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108223530432"/>
@@ -97,6 +104,7 @@
       <item>water20151109200555326</item>
       <item>Berlin165020151110192238986</item>
       <item>Berlin175020151110194849688</item>
+      <item>Berlin180020151110195755165</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -131,6 +139,13 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
+    <legendgroup open="true" checked="Qt::Unchecked" name="1800">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1800" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="Berlin180020151110195755165" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
     <legendgroup open="true" checked="Qt::Unchecked" name="1986">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Berlin1986-07" showFeatureCount="0">
         <filegroup open="false" hidden="false">
@@ -147,10 +162,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-9604.38405797101950157</xmin>
-      <ymin>-11723.84057971014590294</ymin>
-      <xmax>9604.38405797101950157</xmax>
-      <ymax>-3818.84057971014453869</ymax>
+      <xmin>-9612.88888888889050577</xmin>
+      <ymin>-11715.11111111111131322</ymin>
+      <xmax>9612.88888888889050577</xmax>
+      <ymax>-3803.11111111111131322</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -168,7 +183,7 @@
     </destinationsrs>
     <layer_coordinate_transform_info/>
   </mapcanvas>
-  <projectlayers layercount="7">
+  <projectlayers layercount="8">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Berlin165020151110192238986</id>
       <datasource>./layers/1650/Berlin1650.tif</datasource>
@@ -264,6 +279,49 @@
         <value></value>
       </keywordList>
       <layername>Berlin1750</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</proj4>
+          <srsid>1031</srsid>
+          <srid>3068</srid>
+          <authid>EPSG:3068</authid>
+          <description>DHDN / Soldner Berlin</description>
+          <projectionacronym>cass</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Berlin180020151110195755165</id>
+      <datasource>./layers/1800/Berlin1800.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Berlin1800</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</proj4>
