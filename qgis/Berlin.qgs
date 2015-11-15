@@ -17,7 +17,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="water20151109200555326" name="water">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Berlin169020151108233126617" name="Berlin1690">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Berlin169020151115164336760" name="Berlin1690">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -47,10 +47,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1491161.82530372147448361</xmin>
-      <ymin>6893883.95112870447337627</ymin>
-      <xmax>1493562.88819909305311739</xmax>
-      <ymax>6895963.9159519225358963</ymax>
+      <xmin>1491746.1512666589114815</xmin>
+      <ymin>6893597.14892612211406231</ymin>
+      <xmax>1492683.54880921239964664</xmax>
+      <ymax>6894968.66639328934252262</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -73,14 +73,18 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:900913" srcDatumTransform="-1" destDatumTransform="-1" layerid="frmt_wms_googlemaps_tms20151108224005955"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151108231853598"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108224525545"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151115164336760"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108225849908"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin1986_0720151108230612390"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108225916346"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108222220166"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151115162943756"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108222305185"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150921165913924"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin180020151110195755165"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151115162907717"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="water20151109200555326"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151115162156258"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020150921173723061"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108223530432"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20151108222712525"/>
@@ -90,6 +94,8 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150921165537423"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151108222105272"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Landsat__Gis_Lab_info_20151108224350187"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151115162717598"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151115163250491"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin169020151108233126617"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="Berlin175020151110194849688"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_Landscape20151108224438308"/>
@@ -100,11 +106,11 @@
       <item>streets20150921174849756</item>
       <item>OSM_Mapnik20151108222712525</item>
       <item>Berlin1986_0720151108230612390</item>
-      <item>Berlin169020151108233126617</item>
       <item>water20151109200555326</item>
       <item>Berlin165020151110192238986</item>
       <item>Berlin175020151110194849688</item>
       <item>Berlin180020151110195755165</item>
+      <item>Berlin169020151115164336760</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -128,7 +134,7 @@
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Berlin1690" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Berlin169020151108233126617" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Berlin169020151115164336760" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -162,10 +168,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-9612.88888888889050577</xmin>
-      <ymin>-11715.11111111111131322</ymin>
-      <xmax>9612.88888888889050577</xmax>
-      <ymax>-3803.11111111111131322</ymax>
+      <xmin>1521.29462264566109297</xmin>
+      <ymin>-1876.93872566993809414</ymin>
+      <xmax>1716.83048701826146498</xmax>
+      <ymax>-1796.4696920215717455</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -183,7 +189,7 @@
     </destinationsrs>
     <layer_coordinate_transform_info/>
   </mapcanvas>
-  <projectlayers layercount="8">
+  <projectlayers layercount="9">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Berlin165020151110192238986</id>
       <datasource>./layers/1650/Berlin1650.tif</datasource>
@@ -227,8 +233,8 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Berlin169020151108233126617</id>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Berlin169020151115164336760</id>
       <datasource>./layers/1690/Berlin1690.tif</datasource>
       <title></title>
       <abstract></abstract>
@@ -261,7 +267,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -692,6 +698,49 @@
         <property key="zmax" value="19"/>
         <property key="zmin" value="0"/>
       </customproperties>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Raster20151115161212595</id>
+      <datasource>../../Berlin Maps Original/Berlin um 1690 entz.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Raster</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>streets20150921174849756</id>
