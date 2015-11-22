@@ -33,12 +33,12 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Base Maps">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Base Maps">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin165020151115201900306" name="Berlin1650">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin169020151115164336760" name="Berlin1690">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Berlin169020151115164336760" name="Berlin1690">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin175020151110194849688" name="Berlin1750">
@@ -62,10 +62,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1491864.54617466614581645</xmin>
-      <ymin>6894408.88584389723837376</ymin>
-      <xmax>1492231.4598286694381386</xmax>
-      <ymax>6894659.16949139535427094</ymax>
+      <xmin>1492042.75102932495065033</xmin>
+      <ymin>6894400.91733413748443127</ymin>
+      <xmax>1492409.66468332824297249</xmax>
+      <ymax>6894651.20098163560032845</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -182,15 +182,15 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Base Maps">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Base Maps">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1650" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Berlin165020151115201900306" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1690" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Berlin1690" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Berlin169020151115164336760" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="Berlin169020151115164336760" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1750" showFeatureCount="0">
