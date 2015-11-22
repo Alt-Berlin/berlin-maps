@@ -3,14 +3,17 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="1690">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Berlin">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="streets20150921174849756" name="streets">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="1690">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="water20151109200555326" name="water">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="streets20150921174849756" name="streets">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="water20151109200555326" name="water">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Base Maps">
       <customproperties/>
@@ -26,7 +29,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin180020151110195755165" name="Berlin1800">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="1986">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="1986">
         <customproperties/>
         <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Berlin1986_0720151108230612390" name="Berlin1986-07">
           <customproperties/>
@@ -109,17 +112,19 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::Checked" name="1690">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="streets" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="streets20150921174849756" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="water" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="water20151109200555326" visible="1"/>
-        </filegroup>
-      </legendlayer>
+    <legendgroup open="true" checked="Qt::Checked" name="Berlin">
+      <legendgroup open="true" checked="Qt::Checked" name="1690">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="streets" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="streets20150921174849756" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="water" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="water20151109200555326" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
     </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Base Maps">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1650" showFeatureCount="0">
@@ -142,7 +147,7 @@
           <legendlayerfile isInOverview="0" layerid="Berlin180020151110195755165" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="true" checked="Qt::Unchecked" name="1986">
+      <legendgroup open="false" checked="Qt::Unchecked" name="1986">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Berlin1986-07" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="Berlin1986_0720151108230612390" visible="0"/>
@@ -668,7 +673,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>streets20150921174849756</id>
-      <datasource>./layers/1690/streets.shp</datasource>
+      <datasource>./layers/Berlin/1690/streets.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -926,7 +931,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>water20151109200555326</id>
-      <datasource>./layers/1690/water.shp</datasource>
+      <datasource>./layers/Berlin/1690/water.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
