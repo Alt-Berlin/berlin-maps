@@ -2,8 +2,8 @@
 .DS_Store
 
 # Shape files are generated
-qgis/layers/**/*.dbf
-qgis/layers/**/*.shp
-qgis/layers/**/*.prj
-qgis/layers/**/*.qpj
-qgis/layers/**/*.shx
+qgis/layers/Berlin/**/*.dbf
+qgis/layers/Berlin/**/*.shp
+qgis/layers/Berlin/**/*.prj
+qgis/layers/Berlin/**/*.qpj
+qgis/layers/Berlin/**/*.shx
