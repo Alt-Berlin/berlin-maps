@@ -3,9 +3,9 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="OSM">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="OSM">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="roads20151122220821664" name="roads">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads20151122220821664" name="roads">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="railways20151122220817322" name="railways">
@@ -28,7 +28,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="streets20150921174849756" name="roads">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="water20151109200555326" name="natural">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="water20151109200555326" name="natural">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -54,7 +54,7 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20151108222712525" name="OSM Mapnik">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_Mapnik20151108222712525" name="OSM Mapnik">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -62,10 +62,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1491648.99346463684923947</xmin>
-      <ymin>6894550.03407912980765104</ymin>
-      <xmax>1492384.95089545124210417</xmax>
-      <ymax>6895050.6013741260394454</ymax>
+      <xmin>1489434.36853978526778519</xmin>
+      <ymin>6892734.46897455863654613</ymin>
+      <xmax>1493804.17861329182051122</xmax>
+      <ymax>6895473.90534336306154728</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -141,10 +141,10 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="OSM">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="roads" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Unchecked" name="OSM">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="roads" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads20151122220821664" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="roads20151122220821664" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="railways" showFeatureCount="0">
@@ -175,8 +175,8 @@
             <legendlayerfile isInOverview="0" layerid="streets20150921174849756" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="natural" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="natural" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
             <legendlayerfile isInOverview="0" layerid="water20151109200555326" visible="1"/>
           </filegroup>
         </legendlayer>
@@ -211,9 +211,9 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM Mapnik" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151108222712525" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151108222712525" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -1241,7 +1241,7 @@
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
+              <prop k="line_width" v="0.3"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1770,14 +1770,14 @@
           <symbol alpha="0.596078" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="165,191,221,255"/>
+              <prop k="color" v="166,206,227,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="114,133,132,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="1.06"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -2008,21 +2008,21 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>streets20150921174849756</value>
-        <value>water20151109200555326</value>
         <value>buildings20151122220754145</value>
         <value>landuse20151122220759285</value>
         <value>natural20151122220806839</value>
         <value>railways20151122220817322</value>
         <value>roads20151122220821664</value>
+        <value>streets20150921174849756</value>
+        <value>water20151109200555326</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>enabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">all_layers</SnappingMode>
@@ -2038,15 +2038,15 @@
         <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
-      <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
       <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
