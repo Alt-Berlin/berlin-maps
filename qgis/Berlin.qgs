@@ -23,18 +23,18 @@
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Berlin">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="1650">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="1650">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="natural20151128202037543" name="natural">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="natural20151128202037543" name="natural">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="1690">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="1690">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="streets20150921174849756" name="roads">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Checked" id="lines20151128193150565" name="lines">
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lines20151128193150565" name="lines">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="water20151109200555326" name="natural">
@@ -44,10 +44,10 @@
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Base Maps">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin165020151115201900306" name="Berlin1650">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Berlin165020151115201900306" name="Berlin1650">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Berlin169020151115164336760" name="Berlin1690">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin169020151115164336760" name="Berlin1690">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Berlin175020151110194849688" name="Berlin1750">
@@ -63,7 +63,7 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OSM_Mapnik20151108222712525" name="OSM Mapnik">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20151108222712525" name="OSM Mapnik">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -71,10 +71,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1490973.63612005161121488</xmin>
-      <ymin>6892843.1818445585668087</ymin>
-      <xmax>1493610.48671494796872139</xmax>
-      <ymax>6895390.08861830830574036</ymax>
+      <xmin>1490707.95228197728283703</xmin>
+      <ymin>6893072.53224416077136993</ymin>
+      <xmax>1493773.11559518962167203</xmax>
+      <ymax>6895240.11679411679506302</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -182,22 +182,22 @@
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Berlin">
-      <legendgroup open="true" checked="Qt::Unchecked" name="1650">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="natural" showFeatureCount="0">
+      <legendgroup open="true" checked="Qt::Checked" name="1650">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="natural" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="natural20151128202037543" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="natural20151128202037543" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="1690">
+      <legendgroup open="true" checked="Qt::Unchecked" name="1690">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="roads" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="streets20150921174849756" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lines" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lines" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lines20151128193150565" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lines20151128193150565" visible="0"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="natural" showFeatureCount="0">
@@ -208,14 +208,14 @@
       </legendgroup>
     </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Base Maps">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1650" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Berlin1650" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Berlin165020151115201900306" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="Berlin165020151115201900306" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Berlin1690" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1690" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Berlin169020151115164336760" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Berlin169020151115164336760" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Berlin1750" showFeatureCount="0">
@@ -236,9 +236,9 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM Mapnik" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151108222712525" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20151108222712525" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -1573,13 +1573,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".Helvetica Neue DeskInterface,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2546,12 +2547,14 @@
         <value>landuse20151122220759285</value>
         <value>lines20151128193150565</value>
         <value>natural20151122220806839</value>
+        <value>natural20151128202037543</value>
         <value>railways20151122220817322</value>
         <value>roads20151122220821664</value>
         <value>streets20150921174849756</value>
         <value>water20151109200555326</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -2573,8 +2576,10 @@
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -2588,6 +2593,7 @@
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
       <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
