@@ -26,9 +26,9 @@ Layer type: line, OSM description: [boundary](http://wiki.openstreetmap.org/wiki
 
 Feature                 | Tags
 ----------------------- | ----
-Administrative boundary | 
-Fortress wall           |
-City wall               |
+Administrative boundary | boundary=administrative
+Fortress wall           | barrier=city_wall, name=festungsmauer
+City wall               | barrier=city_wall, name=stadtmauer
 
 ## Contribute
 
