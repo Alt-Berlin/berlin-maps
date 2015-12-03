@@ -1,6 +1,37 @@
 # Berlin Maps
 
-Historical maps of Berlin in a vector-based format. The data is based on maps provided by [Senatsverwaltung für Stadtentwicklung und Umwelt Berlin](http://www.stadtentwicklung.berlin.de/geoinformation/geodateninfrastruktur/de/geodienste/atom.shtml).
+Historical maps of Berlin in a vector-based format. The data is based on maps provided by [Senatsverwaltung für Stadtentwicklung und Umwelt Berlin](http://www.stadtentwicklung.berlin.de/geoinformation/geodateninfrastruktur/de/geodienste/atom.shtml) and [OpenStreetMap](http://www.openstreetmap.org/about).
+
+## Feature Mapping
+
+Features in the map are described using tags, which are compatible with [OSM Map Features](http://wiki.openstreetmap.org/wiki/Map_Features)
+
+### Roads
+Layer type: line
+OSM Description: [highway](http://wiki.openstreetmap.org/wiki/Highways)
+
+Feature     | Tags
+----------- | ----
+Main roads  | type=tertiary
+Roads       | type=residential
+
+### Natural
+Layer type: polygon
+OSM description: [natural](http://wiki.openstreetmap.org/wiki/Key:natural)
+
+Feature     | Tags
+----------- | ----
+Water       | type=water
+
+### Lines
+Layer type: line
+OSM description: [boundary](http://wiki.openstreetmap.org/wiki/Boundaries), [barrier](http://wiki.openstreetmap.org/wiki/Barriers)
+
+Feature                 | Tags
+----------------------- | ----
+Administrative boundary | 
+Fortress wall           |
+City wall               |
 
 ## Contribute
 
