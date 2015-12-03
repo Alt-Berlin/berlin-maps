@@ -2,9 +2,9 @@
 
 Historical maps of Berlin in a vector-based format. The data is based on maps provided by [Senatsverwaltung für Stadtentwicklung und Umwelt Berlin](http://www.stadtentwicklung.berlin.de/geoinformation/geodateninfrastruktur/de/geodienste/atom.shtml) and [OpenStreetMap](http://www.openstreetmap.org/about).
 
-## Feature Mapping
+## Map Features
 
-Features in the map are described using tags, which are compatible with [OSM Map Features](http://wiki.openstreetmap.org/wiki/Map_Features)
+Features in the map are described using tags, which are compatible with [OSM Map Features](http://wiki.openstreetmap.org/wiki/Map_Features).
 
 ### Roads
 Layer type: line, OSM description: [highway](http://wiki.openstreetmap.org/wiki/Highways)
