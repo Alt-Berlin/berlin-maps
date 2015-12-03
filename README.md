@@ -7,8 +7,7 @@ Historical maps of Berlin in a vector-based format. The data is based on maps pr
 Features in the map are described using tags, which are compatible with [OSM Map Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 
 ### Roads
-Layer type: line
-OSM Description: [highway](http://wiki.openstreetmap.org/wiki/Highways)
+Layer type: line, OSM description: [highway](http://wiki.openstreetmap.org/wiki/Highways)
 
 Feature     | Tags
 ----------- | ----
@@ -16,16 +15,14 @@ Main roads  | type=tertiary
 Roads       | type=residential
 
 ### Natural
-Layer type: polygon
-OSM description: [natural](http://wiki.openstreetmap.org/wiki/Key:natural)
+Layer type: polygon, OSM description: [natural](http://wiki.openstreetmap.org/wiki/Key:natural)
 
 Feature     | Tags
 ----------- | ----
 Water       | type=water
 
 ### Lines
-Layer type: line
-OSM description: [boundary](http://wiki.openstreetmap.org/wiki/Boundaries), [barrier](http://wiki.openstreetmap.org/wiki/Barriers)
+Layer type: line, OSM description: [boundary](http://wiki.openstreetmap.org/wiki/Boundaries), [barrier](http://wiki.openstreetmap.org/wiki/Barriers)
 
 Feature                 | Tags
 ----------------------- | ----
