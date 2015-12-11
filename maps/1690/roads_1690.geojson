@@ -175,6 +175,10 @@
 { "type": "Feature", "properties": { "id": null, "type": "residential" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.405807955320865, 52.520664374523065 ], [ 13.407056464243508, 52.519799115193578 ] ] } },
 { "type": "Feature", "properties": { "id": null, "type": "tertiary" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.4043765, 52.513807599999986 ], [ 13.4048606, 52.5135262 ], [ 13.405055101499149, 52.513419636859254 ] ] } },
 { "type": "Feature", "properties": { "id": "88", "type": "tertiary" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.405055101552657, 52.513419636896877 ], [ 13.4051455, 52.5134832 ] ] } },
-{ "type": "Feature", "properties": { "id": "45", "type": "tertiary" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.405807955320835, 52.520664374523044 ], [ 13.405807955320865, 52.520664374523065 ], [ 13.405992902816966, 52.52080133489558 ] ] } }
+{ "type": "Feature", "properties": { "id": "45", "type": "tertiary" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.405807955320835, 52.520664374523044 ], [ 13.405807955320865, 52.520664374523065 ], [ 13.405992902816966, 52.52080133489558 ] ] } },
+{ "type": "Feature", "properties": { "id": null, "type": "residential" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.407739701428834, 52.520970789261341 ], [ 13.40753164559773, 52.520828817202457 ] ] } },
+{ "type": "Feature", "properties": { "id": null, "type": "residential" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.407858283920424, 52.520175006901432 ], [ 13.4075728766769, 52.520356932019951 ] ] } },
+{ "type": "Feature", "properties": { "id": null, "type": "residential" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.406618505161731, 52.520102637737331 ], [ 13.406885492336789, 52.520230558226324 ] ] } },
+{ "type": "Feature", "properties": { "id": null, "type": "residential" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.40612247604939, 52.520446402520669 ], [ 13.406379223628852, 52.52058862085191 ] ] } }
 ]
 }
