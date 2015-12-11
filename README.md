@@ -21,14 +21,33 @@ Feature     | Tags
 ----------- | ----
 Water       | type=water
 
+### Landuse
+
+Layer type: polygon, OSM description: [landuse](http://wiki.openstreetmap.org/wiki/Landuse)
+
+Feature     | Tags              | Original description
+----------- | ----------------- | --------------------
+Residential | type=residential  | Wohngebiete
+ | | Mischgebiete
+ | type=retail | Kerngebiete
+ | type=industrial | Gewerbe- und Industriegebiete
+ | | Besondere Gebiete
+ | | Gemeinbedarfsflächen
+ | type=military | Militärisch genutzte Flächen
+ | type=village_green | Grünflächen
+ | type=farmland | Landwirtschaftsflächen
+ | | Gartenbauflächen
+ | | Feuchtgebiete
+ | type=forest | Waldflächen
+
 ### Lines
 Layer type: line, OSM description: [boundary](http://wiki.openstreetmap.org/wiki/Boundaries), [barrier](http://wiki.openstreetmap.org/wiki/Barriers)
 
-Feature                 | Tags
------------------------ | ----
-Administrative boundary | boundary=administrative
-Fortress wall           | barrier=city_wall, name=festungsmauer
-City wall               | barrier=city_wall, name=stadtmauer
+Feature                 | Tags                    | Original description
+----------------------- | ----------------------- | --------------------
+Administrative boundary | boundary=administrative |
+Fortress wall           | barrier=city_wall       | Festungsanlagen
+City wall               | barrier=city_wall       | Mittelalterliche Stadtmauer
 
 ## Contribute
 
