@@ -24,7 +24,7 @@ Wetland     | type=wetland
 
 ### Buildings
 
-Layer type: polygon, OSM description: [natural](http://wiki.openstreetmap.org/wiki/Key:building)
+Layer type: polygon, OSM description: [building](http://wiki.openstreetmap.org/wiki/Key:building)
 
 Feature         | Tags              | Original description
 --------------- | ----------------- | --------------------
