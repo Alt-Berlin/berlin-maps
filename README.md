@@ -28,17 +28,17 @@ Layer type: polygon, OSM description: [landuse](http://wiki.openstreetmap.org/wi
 Feature     | Tags              | Original description
 ----------- | ----------------- | --------------------
 Residential | type=residential  | Wohngebiete
- | | Mischgebiete
- | type=retail | Kerngebiete
- | type=industrial | Gewerbe- und Industriegebiete
- | | Besondere Gebiete
- | | Gemeinbedarfsflächen
- | type=military | Militärisch genutzte Flächen
- | type=village_green | Grünflächen
- | type=farmland | Landwirtschaftsflächen
- | | Gartenbauflächen
- | | Feuchtgebiete
- | type=forest | Waldflächen
+Mixed use area | | Mischgebiete
+Retail | type=retail | Kerngebiete
+Industrial | type=industrial | Gewerbe- und Industriegebiete
+Special area | | Besondere Gebiete
+Public purpose land | | Gemeinbedarfsflächen
+Military | type=military | Militärisch genutzte Flächen
+Green area | type=village_green | Grünflächen
+Farmland | type=farmland | Landwirtschaftsflächen
+Garden | | Gartenbauflächen
+Wetland | | Feuchtgebiete
+Forest | type=forest | Waldflächen
 
 ### Lines
 Layer type: line, OSM description: [boundary](http://wiki.openstreetmap.org/wiki/Boundaries), [barrier](http://wiki.openstreetmap.org/wiki/Barriers)
