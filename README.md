@@ -20,6 +20,15 @@ Layer type: polygon, OSM description: [natural](http://wiki.openstreetmap.org/wi
 Feature     | Tags
 ----------- | ----
 Water       | type=water
+Wetland     | type=wetland
+
+### Buildings
+
+Layer type: polygon, OSM description: [natural](http://wiki.openstreetmap.org/wiki/Key:building)
+Feature         | Tags              | Original description
+--------------- | ----------------- | --------------------
+Public building | type=public | Gemeinbedarfsflächen
+
 
 ### Landuse
 
@@ -32,12 +41,10 @@ Mixed use area | | Mischgebiete
 Retail | type=retail | Kerngebiete
 Industrial | type=industrial | Gewerbe- und Industriegebiete
 Special area | | Besondere Gebiete
-Public purpose land | | Gemeinbedarfsflächen
 Military | type=military | Militärisch genutzte Flächen
 Green area | type=village_green | Grünflächen
 Farmland | type=farmland | Landwirtschaftsflächen
-Garden | | Gartenbauflächen
-Wetland | | Feuchtgebiete
+Garden | type=plant_nursery | Gartenbauflächen
 Forest | type=forest | Waldflächen
 
 ### Lines
