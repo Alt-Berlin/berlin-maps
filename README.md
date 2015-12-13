@@ -49,7 +49,7 @@ Farmland | type=farmland | Landwirtschaftsflächen
 Garden |  | Gartenbauflächen
 Forest | type=forest | Waldflächen
 
-ToDo: Gartenbauflächen, Gemeinbedarfsflächen, Besondere Gebiete, Mischgebiete, Grünflächen
+ToDo: Gartenbauflächen (horticulture or farmland), Gemeinbedarfsflächen (amenities or own tag), Besondere Gebiete (own tag), Mischgebiete (own tag), Grünflächen (leisure=park or landuse=village_green or own tag)
 
 Notes:
 - Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#natural)
