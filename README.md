@@ -38,19 +38,20 @@ Layer type: polygon, OSM description: [landuse](http://wiki.openstreetmap.org/wi
 
 Feature     | Tags              | Original description
 ----------- | ----------------- | --------------------
-Residential | type=residential  | Wohngebiete
-Mixed use area | | Mischgebiete
-Retail | type=retail | Kerngebiete
-Industrial | type=industrial | Gewerbe- und Industriegebiete
+Mostly residential | type=residential  | Wohngebiete
+Mixed residential/retail | | Mischgebiete
+Mostly retail | type=retail | Kerngebiete
+Commercial/industrial | type=commercial | Gewerbe- und Industriegebiete
 Special area | | Besondere Gebiete
 Military | type=military | Militärisch genutzte Flächen
 Green area | type=village_green | Grünflächen
 Farmland | type=farmland | Landwirtschaftsflächen
-Garden | type=plant_nursery | Gartenbauflächen
+Garden |  | Gartenbauflächen
 Forest | type=forest | Waldflächen
 
+ToDo: Gartenbauflächen, Gemeinbedarfsflächen, Besondere Gebiete, Mischgebiete, Grünflächen
+
 Notes:
-- Public amenities (Gemeinbedarfsflächen) are listed as part of the [buildings layer](#Buildings) because they
 - Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#Natural)
 - The layers natural and landuse complement each other (one area is never added to both layers)
 
