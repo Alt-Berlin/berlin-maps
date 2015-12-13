@@ -21,6 +21,7 @@ Feature     | Tags
 ----------- | ----
 Water       | type=water
 Wetland     | type=wetland
+Forest      | type=wood
 
 ### Buildings
 
@@ -28,7 +29,7 @@ Layer type: polygon, OSM description: [building](http://wiki.openstreetmap.org/w
 
 Feature         | Tags              | Original description
 --------------- | ----------------- | --------------------
-Public building | type=public       | Gemeinbedarfsflächen
+Public building | type=public       |
 
 
 ### Landuse
@@ -47,6 +48,12 @@ Green area | type=village_green | Grünflächen
 Farmland | type=farmland | Landwirtschaftsflächen
 Garden | type=plant_nursery | Gartenbauflächen
 Forest | type=forest | Waldflächen
+
+Notes:
+- Public amenities (Gemeinbedarfsflächen) are listed as part of the [buildings layer](#Buildings) because they
+- Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#Natural)
+- The layers natural and landuse complement each other (one area is never added to both layers)
+
 
 ### Lines
 Layer type: line, OSM description: [boundary](http://wiki.openstreetmap.org/wiki/Boundaries), [barrier](http://wiki.openstreetmap.org/wiki/Barriers)
