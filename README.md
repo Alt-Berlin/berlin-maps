@@ -27,9 +27,8 @@ Forest      | type=wood
 
 Layer type: polygon, OSM description: [building](http://wiki.openstreetmap.org/wiki/Key:building)
 
-Feature         | Tags              | Original description
---------------- | ----------------- | --------------------
-Public building | type=public       |
+Feature         | Tags             
+--------------- | -----------------
 
 
 ### Landuse
@@ -42,18 +41,18 @@ Mostly residential | type=residential  | Wohngebiete
 Mixed residential/retail | | Mischgebiete
 Mostly retail | type=retail | Kerngebiete
 Commercial/industrial | type=commercial | Gewerbe- und Industriegebiete
-Special area | | Besondere Gebiete
+Special area | type=_special_use_ | Besondere Gebiete
+Public use | type=_public_ | Gemeinbedarfsflächen
 Military | type=military | Militärisch genutzte Flächen
-Green area | type=village_green | Grünflächen
-Farmland | type=farmland | Landwirtschaftsflächen
-Garden |  | Gartenbauflächen
-Forest | type=forest | Waldflächen
+Green area | type=_green_ | Grünflächen
+Farmland | type=farmland | Landwirtschaftsflächen, Gartenbauflächen
 
 ToDo: Gartenbauflächen (horticulture or farmland), Gemeinbedarfsflächen (amenities or own tag), Besondere Gebiete (own tag), Mischgebiete (own tag), Grünflächen (leisure=park or landuse=village_green or own tag)
 
 Notes:
 - Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#natural)
 - The layers natural and landuse complement each other (one area is never added to both layers)
+- Tags in _italic_ are not commonly used in OSM
 
 
 ### Lines
