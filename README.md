@@ -52,7 +52,7 @@ Forest | type=forest | Waldflächen
 ToDo: Gartenbauflächen, Gemeinbedarfsflächen, Besondere Gebiete, Mischgebiete, Grünflächen
 
 Notes:
-- Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#Natural)
+- Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#natural)
 - The layers natural and landuse complement each other (one area is never added to both layers)
 
 
