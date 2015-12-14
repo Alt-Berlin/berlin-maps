@@ -47,8 +47,6 @@ Military | type=military | Militärisch genutzte Flächen
 Green area | type=_green_ | Grünflächen
 Farmland | type=farmland | Landwirtschaftsflächen, Gartenbauflächen
 
-ToDo: Gartenbauflächen (horticulture or farmland), Gemeinbedarfsflächen (amenities or own tag), Besondere Gebiete (own tag), Mischgebiete (own tag), Grünflächen (leisure=park or landuse=village_green or own tag)
-
 Notes:
 - Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#natural)
 - The layers natural and landuse complement each other (one area is never added to both layers)
