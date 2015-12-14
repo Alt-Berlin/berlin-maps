@@ -45,7 +45,7 @@ Special area | type=_special_use_ | Besondere Gebiete
 Public use | type=_public_ | Gemeinbedarfsflächen
 Military | type=military | Militärisch genutzte Flächen
 Green area | type=_green_ | Grünflächen
-Farmland | type=farmland | Landwirtschaftsflächen, Gartenbauflächen
+Agriculture | type=farmland | Landwirtschaftsflächen, Gartenbauflächen
 
 Notes:
 - Water (Wasserflächen), wetlands (Feuchtgebiete) and forest (Waldflächen) see layer [natural](#natural)
