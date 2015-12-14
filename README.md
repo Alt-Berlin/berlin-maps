@@ -38,7 +38,7 @@ Layer type: polygon, OSM description: [landuse](http://wiki.openstreetmap.org/wi
 Feature     | Tags              | Original description
 ----------- | ----------------- | --------------------
 Mostly residential | type=residential  | Wohngebiete
-Mixed residential/retail | | Mischgebiete
+Mixed residential/retail | type=_mixed_ | Mischgebiete
 Mostly retail | type=retail | Kerngebiete
 Commercial/industrial | type=commercial | Gewerbe- und Industriegebiete
 Special area | type=_special_use_ | Besondere Gebiete
