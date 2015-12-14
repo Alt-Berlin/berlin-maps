@@ -34,7 +34,7 @@
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="streets20150921174849756" name="roads">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lines20151128193150565" name="lines">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="lines20151128193150565" name="lines">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" checked="Qt::Checked" id="water20151109200555326" name="natural">
@@ -77,10 +77,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1491219.9473942331969738</xmin>
-      <ymin>6893124.59554492309689522</ymin>
-      <xmax>1493364.52786819357424974</xmax>
-      <ymax>6895144.81703817471861839</ymax>
+      <xmin>1491656.74886353523470461</xmin>
+      <ymin>6893450.19291731063276529</ymin>
+      <xmax>1493947.6118437519762665</xmax>
+      <ymax>6894922.73833064083009958</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -206,9 +206,9 @@
             <legendlayerfile isInOverview="0" layerid="streets20150921174849756" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lines" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lines" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lines20151128193150565" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="lines20151128193150565" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="natural" showFeatureCount="0">
@@ -1035,6 +1035,10 @@
         <rules key="{e0600f3f-87c7-42a6-bbaf-400c1a04b419}">
           <rule filter="type is NULL" key="{2ad64451-066c-44b8-ab84-a4f2c6ee6694}" symbol="0" label="default"/>
           <rule filter="type='residential'" key="{2f14c14e-11fe-4d6d-881c-286f4cf79bea}" symbol="1" label="residential"/>
+          <rule filter="type='mixed'" key="{4e15b3f8-a30b-4c5a-9c51-49a4d322b36d}" symbol="2" label="mixed"/>
+          <rule filter="type='retail'" key="{8c63e13a-a4c1-49a1-b15d-c9bccc571211}" symbol="3" label="retail"/>
+          <rule filter="type='public'" key="{6848beeb-3b45-4aee-855a-8632a064faaf}" symbol="4" label="public"/>
+          <rule filter="type='green'" key="{c72af2a2-6a11-4033-af59-39d948b78d7a}" symbol="5" label="green"/>
         </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -1061,6 +1065,66 @@
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="178,223,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,127,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="144,106,129,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="186,221,105,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="128,152,72,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
@@ -1220,7 +1284,7 @@
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
+      <layerTransparency>50</layerTransparency>
       <displayfield>id</displayfield>
       <label>0</label>
       <labelattributes>
@@ -3208,7 +3272,6 @@
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
-      <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
         <value>0.000000</value>
         <value>0.000000</value>
@@ -3222,6 +3285,7 @@
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
+      <TopologicalEditing type="bool">true</TopologicalEditing>
     </Digitizing>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
